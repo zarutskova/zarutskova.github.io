@@ -1,0 +1,52 @@
+BODY
+
+h2{
+    color: black;
+    font-size: 4 px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+.one{
+    color: #707070;
+    font-size: 14 px;
+    font-style: italic;
+    line-height: 16 px;
+}
+.two{
+    color: #484343;
+    font-size: 16 px;
+    font-weight: 400;
+    line-height: 24 px;
+}
+.three{
+    list-style-image: url(love.png)
+}
+input[type="text"]{
+    width: 300px;
+   color: black;
+}
+input.five{
+    width: 400px;
+    height: 200px;
+    color: darkcyan;
+}
+#header{
+    background: brown;
+    height: 100px;
+    color: white;
+    text-align: center;
+    line-height: 100px; /*центрирование текста по вертикали*/
+    text-transform: uppercase; /*выводим большими буквами*/
+    font-size: 3vw; /*резиновый текст относительно размера окна*/
+    flex: 0 0 auto;
+    ;
+}
+#footer{
+     width:150px;
+ height:35px;
+    background: tan;
+    height: 100px;
+    flex: 0 0 auto;
+    color: white;
+    
+}
